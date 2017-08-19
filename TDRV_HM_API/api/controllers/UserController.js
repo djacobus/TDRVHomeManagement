@@ -10,7 +10,7 @@ module.exports = {
     return res.send('Hi there!');
   },
   bye: function (req, res) {
-    return res.redirect('http://www.sayonara.com');
+    return res.redirect('http://www.espn.com');
   }
 };
 
