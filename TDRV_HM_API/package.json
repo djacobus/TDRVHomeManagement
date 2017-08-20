@@ -23,6 +23,12 @@
     "sails": "~0.12.13",
     "sails-disk": "~0.10.9"
   },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "scripts": {
     "debug": "node debug app.js",
     "start": "node app.js"
